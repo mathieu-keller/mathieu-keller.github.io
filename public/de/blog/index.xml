@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Mathieu Keller - Software Developer</title>
+    <title>Blog on Mathieu Keller - Blog from Tokyo</title>
     <link>https://www.kellerlab.dev/de/blog/</link>
-    <description>Recent content in Blog on Mathieu Keller - Software Developer</description>
+    <description>Recent content in Blog on Mathieu Keller - Blog from Tokyo</description>
     <generator>Hugo</generator>
     <language>de</language>
     <atom:link href="https://www.kellerlab.dev/de/blog/index.xml" rel="self" type="application/rss+xml" />
