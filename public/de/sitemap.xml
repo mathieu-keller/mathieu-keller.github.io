@@ -71,6 +71,7 @@
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/de/blog/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -85,6 +86,96 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://www.kellerlab.dev/de/blog/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/blog/fly-preparations/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/blog/fly-preparations/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/japan/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/japan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/japan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/japan/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/travel/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/travel/"
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/de/categories/</loc>
@@ -102,40 +193,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://www.kellerlab.dev/de/categories/"
-                />
-  </url><url>
-    <loc>https://www.kellerlab.dev/de/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kellerlab.dev/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://www.kellerlab.dev/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.kellerlab.dev/de/"
-                />
-  </url><url>
-    <loc>https://www.kellerlab.dev/de/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kellerlab.dev/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://www.kellerlab.dev/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.kellerlab.dev/de/tags/"
                 />
   </url>
 </urlset>

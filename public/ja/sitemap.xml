@@ -70,24 +70,26 @@
                 href="https://www.kellerlab.dev/ja/libs/"
                 />
   </url><url>
-    <loc>https://www.kellerlab.dev/ja/categories/</loc>
+    <loc>https://www.kellerlab.dev/ja/tags/japan/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/en/categories/"
+                href="https://www.kellerlab.dev/en/tags/japan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.kellerlab.dev/de/categories/"
+                href="https://www.kellerlab.dev/de/tags/japan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://www.kellerlab.dev/ja/categories/"
+                href="https://www.kellerlab.dev/ja/tags/japan/"
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/ja/tags/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -104,7 +106,26 @@
                 href="https://www.kellerlab.dev/ja/tags/"
                 />
   </url><url>
+    <loc>https://www.kellerlab.dev/ja/tags/travel/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/travel/"
+                />
+  </url><url>
     <loc>https://www.kellerlab.dev/ja/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -121,7 +142,26 @@
                 href="https://www.kellerlab.dev/ja/"
                 />
   </url><url>
+    <loc>https://www.kellerlab.dev/ja/blog/fly-preparations/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/blog/fly-preparations/"
+                />
+  </url><url>
     <loc>https://www.kellerlab.dev/ja/blog/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -136,6 +176,23 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://www.kellerlab.dev/ja/blog/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/ja/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/categories/"
                 />
   </url>
 </urlset>
