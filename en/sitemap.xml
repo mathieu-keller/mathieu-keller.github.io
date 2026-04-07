@@ -214,24 +214,6 @@
                 href="https://www.kellerlab.dev/en/tags/"
                 />
   </url><url>
-    <loc>https://www.kellerlab.dev/en/tags/travel/</loc>
-    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.kellerlab.dev/de/tags/travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://www.kellerlab.dev/ja/tags/travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kellerlab.dev/en/tags/travel/"
-                />
-  </url><url>
     <loc>https://www.kellerlab.dev/en/blog/fly-preparations/</loc>
     <lastmod>2026-04-03T13:00:00+02:00</lastmod>
     <xhtml:link
@@ -248,6 +230,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.kellerlab.dev/en/blog/fly-preparations/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/en/tags/travel/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/travel/"
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/en/categories/</loc>
