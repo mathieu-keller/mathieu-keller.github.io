@@ -6,7 +6,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/impressum/"
+                href="https://www.kellerlab.dev/en/impressum/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -23,7 +23,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/about/"
+                href="https://www.kellerlab.dev/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -40,7 +40,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/privacy/"
+                href="https://www.kellerlab.dev/en/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -57,7 +57,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/libs/"
+                href="https://www.kellerlab.dev/en/libs/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -70,12 +70,48 @@
                 href="https://www.kellerlab.dev/de/libs/"
                 />
   </url><url>
-    <loc>https://www.kellerlab.dev/de/blog/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <loc>https://www.kellerlab.dev/de/blog/first-day/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/blog/"
+                href="https://www.kellerlab.dev/en/blog/first-day/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/blog/first-day/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/blog/first-day/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/arrival/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/arrival/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/arrival/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/arrival/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/blog/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -88,30 +124,12 @@
                 href="https://www.kellerlab.dev/de/blog/"
                 />
   </url><url>
-    <loc>https://www.kellerlab.dev/de/blog/fly-preparations/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kellerlab.dev/blog/fly-preparations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://www.kellerlab.dev/ja/blog/fly-preparations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.kellerlab.dev/de/blog/fly-preparations/"
-                />
-  </url><url>
     <loc>https://www.kellerlab.dev/de/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/"
+                href="https://www.kellerlab.dev/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -125,11 +143,11 @@
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/de/tags/japan/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/tags/japan/"
+                href="https://www.kellerlab.dev/en/tags/japan/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -142,12 +160,48 @@
                 href="https://www.kellerlab.dev/de/tags/japan/"
                 />
   </url><url>
-    <loc>https://www.kellerlab.dev/de/tags/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <loc>https://www.kellerlab.dev/de/tags/language-school/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/tags/"
+                href="https://www.kellerlab.dev/en/tags/language-school/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/language-school/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/language-school/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/sharehouse/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/sharehouse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/tags/sharehouse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/tags/sharehouse/"
+                />
+  </url><url>
+    <loc>https://www.kellerlab.dev/de/tags/</loc>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -161,11 +215,11 @@
                 />
   </url><url>
     <loc>https://www.kellerlab.dev/de/tags/travel/</loc>
-    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <lastmod>2026-04-07T23:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/tags/travel/"
+                href="https://www.kellerlab.dev/en/tags/travel/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -178,11 +232,29 @@
                 href="https://www.kellerlab.dev/de/tags/travel/"
                 />
   </url><url>
+    <loc>https://www.kellerlab.dev/de/blog/fly-preparations/</loc>
+    <lastmod>2026-04-03T13:00:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kellerlab.dev/en/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://www.kellerlab.dev/ja/blog/fly-preparations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.kellerlab.dev/de/blog/fly-preparations/"
+                />
+  </url><url>
     <loc>https://www.kellerlab.dev/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.kellerlab.dev/categories/"
+                href="https://www.kellerlab.dev/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
