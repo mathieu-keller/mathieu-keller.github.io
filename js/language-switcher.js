@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const select = document.getElementById('language');
+    if (!select) {
+        return;
+    }
+
     const supported = ['en', 'de', 'ja'];
 
     function getLangFromPath() {
@@ -17,27 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         location.href = '/' + parts.join('/') + location.search + location.hash;
     }
 
-    function detectOsLang() {
-        const langs = navigator.languages || [navigator.language || 'en'];
-        for (const l of langs) {
-            const code = l.split('-')[0].toLowerCase();
-            if (supported.includes(code)) return code;
-        }
-        return 'en';
-    }
-
     const currentLang = getLangFromPath();
     select.value = currentLang;
-
-    // On first visit (no saved preference) redirect to OS language
-    if (!localStorage.getItem('lang')) {
-        const osLang = detectOsLang();
-        localStorage.setItem('lang', osLang);
-        if (osLang !== currentLang) {
-            navigateToLang(osLang);
-            return;
-        }
-    }
 
     select.addEventListener('change', function() {
         const lang = select.value;
