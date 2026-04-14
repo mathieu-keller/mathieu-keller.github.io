@@ -4,36 +4,20 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    const supported = ['en', 'de', 'ja'];
-
-    function getLangFromPath() {
-        const parts = location.pathname.split('/').filter(x => x);
-        return supported.includes(parts[0]) ? parts[0] : 'en';
-    }
-
-    function navigateToLang(lang) {
-        const parts = location.pathname.split('/').filter(x => x);
-        const needsTrailingSlash = location.pathname.endsWith('/') || !location.pathname.includes('.');
-        if (supported.includes(parts[0])) {
-            parts[0] = lang;
-        } else {
-            parts.unshift(lang);
+    function navigateToSelectedLanguage() {
+        const selectedOption = select.selectedOptions[0];
+        if (!selectedOption || !selectedOption.dataset.url) {
+            return;
         }
 
-        let path = '/' + parts.join('/');
-        if (needsTrailingSlash && !path.endsWith('/')) {
-            path += '/';
-        }
-
-        location.href = path + location.search + location.hash;
+        const url = new URL(selectedOption.dataset.url, window.location.origin);
+        url.search = window.location.search;
+        url.hash = window.location.hash;
+        window.location.href = url.toString();
     }
-
-    const currentLang = getLangFromPath();
-    select.value = currentLang;
 
     select.addEventListener('change', function() {
-        const lang = select.value;
-        localStorage.setItem('lang', lang);
-        navigateToLang(lang);
+        localStorage.setItem('lang', select.value);
+        navigateToSelectedLanguage();
     });
 });

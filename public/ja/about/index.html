@@ -38,10 +38,10 @@
     <meta name="twitter:image:alt" content="Mathieu Keller">
 
     
-    <link rel="alternate" hreflang="en" href="https://www.kellerlab.dev/en/about/">
+    <link rel="alternate" hreflang="en" href="https://www.kellerlab.dev/about/">
     <link rel="alternate" hreflang="de" href="https://www.kellerlab.dev/de/about/">
     <link rel="alternate" hreflang="ja" href="https://www.kellerlab.dev/ja/about/">
-    <link rel="alternate" hreflang="x-default" href="https://www.kellerlab.dev/en/about/">
+    <link rel="alternate" hreflang="x-default" href="https://www.kellerlab.dev/about/">
     <link rel="canonical" href="https://www.kellerlab.dev/ja/about/">
 
     
@@ -85,14 +85,13 @@
     <div class="container">
         <aside class="sidebar" aria-label="Sidebar navigation">
     <img src="/me.jpeg" alt="Photo of Mathieu Keller, full stack software developer" class="profileImage" width="125" height="125">
-
     <nav class="nav" aria-label="Main navigation">
-        <a href="https://www.kellerlab.dev/ja/" >ホーム</a>
-        <a href="https://www.kellerlab.dev/ja/about/" aria-current="page">プロフィール</a>
-        <a href="https://www.kellerlab.dev/ja/blog/" >ブログ</a>
-        <a href="https://www.kellerlab.dev/ja/impressum/" >免責事項</a>
-        <a href="https://www.kellerlab.dev/ja/privacy/" >プライバシーポリシー</a>
-        <a href="https://www.kellerlab.dev/ja/libs/" >使用ライブラリ</a>
+        <a href="/ja/" >ホーム</a>
+        <a href="/ja/about/" aria-current="page">プロフィール</a>
+        <a href="/ja/blog/" >ブログ</a>
+        <a href="/ja/impressum/" >免責事項</a>
+        <a href="/ja/privacy/" >プライバシーポリシー</a>
+        <a href="/ja/libs/" >使用ライブラリ</a>
     </nav>
 
     <section class="sidebar-search" aria-label="検索">
@@ -142,15 +141,15 @@
 </div>
 
 
-    <div class="switcher">
+    
+<div class="switcher">
     <label for="language">言語</label>
     <select id="language" class="select">
-        <option value="en">英語</option>
-        <option value="de">ドイツ語</option>
-        <option value="ja">日本語</option>
+        <option value="en" data-url="/about/" >英語</option>
+        <option value="de" data-url="/de/about/" >ドイツ語</option>
+        <option value="ja" data-url="/ja/about/" selected>日本語</option>
     </select>
 </div>
-
 
 </aside>
 

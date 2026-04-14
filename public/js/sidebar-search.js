@@ -7,7 +7,7 @@
     }
 
     const locale = document.documentElement.lang || 'en';
-    const indexURL = `/${locale}/index.json`;
+    const indexURL = locale === 'en' ? '/index.json' : `/${locale}/index.json`;
     const noResultsText = input.dataset.noResults || 'No results found for';
     let indexCache = null;
     let debounceTimer;

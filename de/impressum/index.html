@@ -38,10 +38,10 @@
     <meta name="twitter:image:alt" content="Mathieu Keller">
 
     
-    <link rel="alternate" hreflang="en" href="https://www.kellerlab.dev/en/impressum/">
+    <link rel="alternate" hreflang="en" href="https://www.kellerlab.dev/impressum/">
     <link rel="alternate" hreflang="de" href="https://www.kellerlab.dev/de/impressum/">
     <link rel="alternate" hreflang="ja" href="https://www.kellerlab.dev/ja/impressum/">
-    <link rel="alternate" hreflang="x-default" href="https://www.kellerlab.dev/en/impressum/">
+    <link rel="alternate" hreflang="x-default" href="https://www.kellerlab.dev/impressum/">
     <link rel="canonical" href="https://www.kellerlab.dev/de/impressum/">
 
     
@@ -64,14 +64,13 @@
     <div class="container">
         <aside class="sidebar" aria-label="Sidebar navigation">
     <img src="/me.jpeg" alt="Photo of Mathieu Keller, full stack software developer" class="profileImage" width="125" height="125">
-
     <nav class="nav" aria-label="Main navigation">
-        <a href="https://www.kellerlab.dev/de/" >Home</a>
-        <a href="https://www.kellerlab.dev/de/about/" >Über mich</a>
-        <a href="https://www.kellerlab.dev/de/blog/" >Blog</a>
-        <a href="https://www.kellerlab.dev/de/impressum/" aria-current="page">Impressum</a>
-        <a href="https://www.kellerlab.dev/de/privacy/" >Datenschutzerklärung</a>
-        <a href="https://www.kellerlab.dev/de/libs/" >Bibliotheken</a>
+        <a href="/de/" >Home</a>
+        <a href="/de/about/" >Über mich</a>
+        <a href="/de/blog/" >Blog</a>
+        <a href="/de/impressum/" aria-current="page">Impressum</a>
+        <a href="/de/privacy/" >Datenschutzerklärung</a>
+        <a href="/de/libs/" >Bibliotheken</a>
     </nav>
 
     <section class="sidebar-search" aria-label="Suche">
@@ -121,15 +120,15 @@
 </div>
 
 
-    <div class="switcher">
+    
+<div class="switcher">
     <label for="language">Sprache</label>
     <select id="language" class="select">
-        <option value="en">Englisch</option>
-        <option value="de">Deutsch</option>
-        <option value="ja">Japanisch</option>
+        <option value="en" data-url="/impressum/" >Englisch</option>
+        <option value="de" data-url="/de/impressum/" selected>Deutsch</option>
+        <option value="ja" data-url="/ja/impressum/" >Japanisch</option>
     </select>
 </div>
-
 
 </aside>
 
