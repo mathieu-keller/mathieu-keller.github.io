@@ -1,9 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>https://www.kellerlab.dev/en/</title>
-    <link rel="canonical" href="https://www.kellerlab.dev/en/">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://www.kellerlab.dev/en/">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mathieu Keller | Tokyo Blog and Japanese Learning Journey</title>
+  <meta name="description" content="Personal blog of Mathieu Keller about living in Tokyo, studying Japanese, and sharing the experience along the way.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.kellerlab.dev/">
+  <link rel="alternate" hreflang="x-default" href="https://www.kellerlab.dev/">
+  <link rel="alternate" hreflang="en" href="https://www.kellerlab.dev/en/">
+  <link rel="alternate" hreflang="de" href="https://www.kellerlab.dev/de/">
+  <link rel="alternate" hreflang="ja" href="https://www.kellerlab.dev/ja/">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f1ea;
+      --panel: rgba(255, 255, 255, 0.82);
+      --text: #1c1917;
+      --muted: #57534e;
+      --border: rgba(28, 25, 23, 0.12);
+      --accent: #0f766e;
+      --accent-text: #ffffff;
+      --shadow: 0 24px 60px rgba(28, 25, 23, 0.12);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --panel: rgba(17, 24, 39, 0.82);
+        --text: #f9fafb;
+        --muted: #cbd5e1;
+        --border: rgba(248, 250, 252, 0.12);
+        --accent: #2dd4bf;
+        --accent-text: #0f172a;
+        --shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(15, 118, 110, 0.18), transparent 35%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent),
+        var(--bg);
+    }
+
+    main {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      line-height: 1.05;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      background: transparent;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: var(--accent-text);
+      border-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mathieu Keller</h1>
+    <p>
+      Personal blog about living in Tokyo, learning Japanese, and building software.
+      Choose a language version below.
+    </p>
+    <div class="actions">
+      <a class="button primary" href="/en/">English</a>
+      <a class="button" href="/de/">Deutsch</a>
+      <a class="button" href="/ja/">日本語</a>
+    </div>
+  </main>
+</body>
 </html>

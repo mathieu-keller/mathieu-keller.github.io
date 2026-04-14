@@ -13,12 +13,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function navigateToLang(lang) {
         const parts = location.pathname.split('/').filter(x => x);
+        const needsTrailingSlash = location.pathname.endsWith('/') || !location.pathname.includes('.');
         if (supported.includes(parts[0])) {
             parts[0] = lang;
         } else {
             parts.unshift(lang);
         }
-        location.href = '/' + parts.join('/') + location.search + location.hash;
+
+        let path = '/' + parts.join('/');
+        if (needsTrailingSlash && !path.endsWith('/')) {
+            path += '/';
+        }
+
+        location.href = path + location.search + location.hash;
     }
 
     const currentLang = getLangFromPath();
