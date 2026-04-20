@@ -692,6 +692,11 @@ hr {
     gap: 0.5rem;
 }
 
+.page-content {
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
 .blog-card {
     background: var(--card-bg);
     border: 0.0625rem solid var(--border-color);
@@ -833,6 +838,294 @@ hr {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin: 1rem 0;
+}
+
+.gallery-page h1 {
+    margin-bottom: 0.75rem;
+}
+
+.gallery-page {
+    max-width: 96rem;
+}
+
+.gallery-folder-grid,
+.gallery-grid {
+    display: grid;
+    gap: 1.75rem;
+    margin: 2rem 0;
+}
+
+.gallery-folder-grid {
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+
+.gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+}
+
+.gallery-folder-card,
+.gallery-card {
+    background: var(--card-bg);
+    border: 0.0625rem solid var(--border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: var(--transform-erase);
+}
+
+.gallery-folder-card:hover,
+.gallery-card:hover {
+    transform: var(--transform-scale);
+}
+
+.gallery-folder-link,
+.gallery-image-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.gallery-folder-cover,
+.gallery-folder-placeholder {
+    width: 100%;
+    min-height: 200px;
+}
+
+.gallery-folder-cover {
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.gallery-folder-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        radial-gradient(circle at top right, rgba(29, 78, 216, 0.2), transparent 40%),
+        linear-gradient(135deg, rgba(159, 18, 57, 0.16), transparent 70%),
+        var(--background);
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.gallery-folder-body {
+    padding: 1rem 1.1rem 1.1rem;
+}
+
+.gallery-folder-kicker {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    margin: 0 0 0.45rem;
+    text-transform: uppercase;
+}
+
+.gallery-folder-body h2 {
+    margin: 0;
+    color: var(--primary);
+}
+
+.gallery-folder-description {
+    color: var(--text-muted);
+    margin: 0.75rem 0 1rem;
+}
+
+.gallery-folder-meta {
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+}
+
+.gallery-image-link {
+    background: var(--background);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    border-radius: 0;
+    transition: transform 0.35s ease;
+}
+
+.gallery-card:hover .gallery-image {
+    transform: scale(1.03);
+}
+
+.gallery-card-caption {
+    padding: 0.75rem;
+    background: var(--card-bg);
+    border-top: 0.0625rem solid var(--border-color);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.gallery-timestamp {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-family: 'Courier New', monospace;
+}
+
+.gallery-lightbox-open {
+    overflow: hidden;
+}
+
+.gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.gallery-lightbox[hidden] {
+    display: none;
+}
+
+.gallery-lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    border: 0;
+    background: rgba(15, 23, 42, 0.88);
+    cursor: pointer;
+}
+
+.gallery-lightbox-dialog {
+    position: relative;
+    z-index: 1;
+    width: min(92vw, 110rem);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gallery-lightbox-figure {
+    margin: 0;
+    background: rgba(15, 23, 42, 0.4);
+    border: 0.0625rem solid rgba(255, 255, 255, 0.16);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-height: 88vh;
+}
+
+.gallery-lightbox-image {
+    display: block;
+    width: 100%;
+    max-width: min(92vw, 90rem);
+    max-height: 88vh;
+    object-fit: contain;
+    background: #0f172a;
+}
+
+.gallery-lightbox-nav,
+.gallery-lightbox-close {
+    border: 0;
+    color: #f8fafc;
+    background: rgba(15, 23, 42, 0.72);
+    backdrop-filter: blur(0.5rem);
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.gallery-lightbox-nav:hover,
+.gallery-lightbox-close:hover {
+    background: rgba(29, 78, 216, 0.86);
+}
+
+.gallery-lightbox-nav:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.gallery-lightbox-nav {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 999px;
+    font-size: 1.5rem;
+}
+
+.gallery-lightbox-close {
+    position: absolute;
+    top: -0.5rem;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.gallery-lightbox-counter {
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e2e8f0;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+@media (max-width: 48rem) {
+    .gallery-lightbox {
+        padding: 1rem;
+    }
+
+    .gallery-lightbox-dialog {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 0.75rem;
+        width: 100%;
+    }
+
+    .gallery-lightbox-figure {
+        width: 100%;
+    }
+
+    .gallery-lightbox-image {
+        max-width: 100%;
+        max-height: 75vh;
+    }
+
+    .gallery-lightbox-close {
+        top: -0.75rem;
+        right: -0.25rem;
+    }
+
+    .gallery-lightbox-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .gallery-lightbox-prev {
+        left: 0.5rem;
+    }
+
+    .gallery-lightbox-next {
+        right: 0.5rem;
+    }
+
+    .gallery-lightbox-counter {
+        position: static;
+        transform: none;
+        margin-top: 0.25rem;
+    }
 }
 
 img {
@@ -987,6 +1280,17 @@ img {
     border: 0.0625rem solid var(--primary);
     border-radius: 0.25rem;
     transition: all 0.3s ease;
+}
+
+.pagination-link:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+}
+
+button.pagination-link {
+    background: transparent;
+    cursor: pointer;
+    font: inherit;
 }
 
 .pagination-link:hover {
