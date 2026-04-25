@@ -91,47 +91,48 @@
 
     <div class="container">
         <aside class="sidebar" aria-label="Sidebar navigation">
-    <img src="/me.jpeg" alt="Photo of Mathieu Keller, full stack software developer" class="profileImage" width="125" height="125">
-    <nav class="nav" aria-label="Main navigation">
-        <a href="/ja/" >ホーム</a>
-        <a href="/ja/about/" >プロフィール</a>
-        <a href="/ja/blog/" aria-current="page">ブログ</a>
-        <a href="/ja/gallery/" >ギャラリー</a>
-        <a href="/ja/impressum/" >免責事項</a>
-        <a href="/ja/privacy/" >プライバシーポリシー</a>
-        <a href="/ja/libs/" >使用ライブラリ</a>
-    </nav>
+    <div class="sidebar-inner">
+        <img src="/me.jpeg" alt="Photo of Mathieu Keller, full stack software developer" class="profileImage" width="125" height="125">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="/ja/" >ホーム</a>
+            <a href="/ja/about/" >プロフィール</a>
+            <a href="/ja/blog/" aria-current="page">ブログ</a>
+            <a href="/ja/gallery/" >ギャラリー</a>
+            <a href="/ja/impressum/" >免責事項</a>
+            <a href="/ja/privacy/" >プライバシーポリシー</a>
+            <a href="/ja/libs/" >使用ライブラリ</a>
+        </nav>
 
-    <section class="sidebar-search" aria-label="検索">
-        <label for="sidebar-search-input" class="sidebar-search-label">検索</label>
-        <input
-            id="sidebar-search-input"
-            class="sidebar-search-input"
-            type="search"
-            placeholder="ブログ記事を検索..."
-            aria-describedby="sidebar-search-results"
-            autocomplete="off"
-            data-no-results="検索結果はありません:"
-        >
-        <div id="sidebar-search-results" class="sidebar-search-results" aria-live="polite" aria-atomic="true"></div>
-    </section>
+        <section class="sidebar-search" aria-label="検索">
+            <label for="sidebar-search-input" class="sidebar-search-label">検索</label>
+            <input
+                id="sidebar-search-input"
+                class="sidebar-search-input"
+                type="search"
+                placeholder="ブログ記事を検索..."
+                aria-describedby="sidebar-search-results"
+                autocomplete="off"
+                data-no-results="検索結果はありません:"
+            >
+            <div id="sidebar-search-results" class="sidebar-search-results" aria-live="polite" aria-atomic="true"></div>
+        </section>
 
-    <div class="socialLinks">
-        <a href="https://www.linkedin.com/in/mathieu-keller" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zM4.943 13.5V6.169H2.542V13.5zm-1.2-8.333c.837 0 1.358-.554 1.358-1.248-.015-.71-.52-1.248-1.342-1.248S2.4 3.21 2.4 3.92c0 .694.505 1.248 1.327 1.248m2.813 8.333h2.401V9.41c0-.219.016-.438.08-.594.175-.437.574-.89 1.244-.89.877 0 1.228.671 1.228 1.655V13.5h2.401V9.303c0-2.248-1.196-3.293-2.793-3.293-1.287 0-1.845.71-2.165 1.209h.016v-1.05H6.556c.03.678 0 7.331 0 7.331"/>
-            </svg>
-            <span class="sr-only">LinkedIn</span>
-        </a>
-        <a href="https://github.com/mathieu-keller" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-                <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-            </svg>
-            <span class="sr-only">GitHub</span>
-        </a>
-    </div>
+        <div class="socialLinks">
+            <a href="https://www.linkedin.com/in/mathieu-keller" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zM4.943 13.5V6.169H2.542V13.5zm-1.2-8.333c.837 0 1.358-.554 1.358-1.248-.015-.71-.52-1.248-1.342-1.248S2.4 3.21 2.4 3.92c0 .694.505 1.248 1.327 1.248m2.813 8.333h2.401V9.41c0-.219.016-.438.08-.594.175-.437.574-.89 1.244-.89.877 0 1.228.671 1.228 1.655V13.5h2.401V9.303c0-2.248-1.196-3.293-2.793-3.293-1.287 0-1.845.71-2.165 1.209h.016v-1.05H6.556c.03.678 0 7.331 0 7.331"/>
+                </svg>
+                <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://github.com/mathieu-keller" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+                <span class="sr-only">GitHub</span>
+            </a>
+        </div>
 
-    <div class="switcher">
+        <div class="switcher">
     <label for="theme">モード</label>
     <select id="theme" class="select">
         <option value="light">ライト</option>
@@ -149,7 +150,7 @@
 </div>
 
 
-    
+        
 <div class="switcher">
     <label for="language">言語</label>
     <select id="language" class="select">
@@ -159,6 +160,7 @@
     </select>
 </div>
 
+    </div>
 </aside>
 
 
@@ -252,6 +254,7 @@
     <script src="/js/theme-switcher.js"></script>
     <script src="/js/language-switcher.js"></script>
     <script src="/js/back-to-top.js"></script>
+    <script src="/js/sidebar-layout.js"></script>
     <script src="/js/sidebar-search.js"></script>
     <script src="/js/gallery-pagination.js"></script>
     <script src="/js/gallery-timestamp.js"></script>
